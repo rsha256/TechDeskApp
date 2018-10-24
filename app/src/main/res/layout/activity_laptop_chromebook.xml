@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.anikaitsingh.myapplication.ScrollableActivity">
+    tools:context="io.wwphsstechdesk.application.Main.LaptopChromebookActivity">
 
     <ScrollView
         android:layout_width="340dp"
@@ -19,7 +19,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/laptop_chromebook_help"

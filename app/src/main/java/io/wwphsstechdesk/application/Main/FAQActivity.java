@@ -1,4 +1,4 @@
-package com.example.anikaitsingh.myapplication;
+package io.wwphsstechdesk.application.Main;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -30,6 +30,11 @@ public class FAQActivity extends AppCompatActivity {
 
     public void showLaptopChromebookHelp(View view){
         Intent intent = new Intent(this, LaptopChromebookActivity.class);
+        this.startActivity(intent);
+    }
+
+    public void showProjectorHelp(View view){
+        Intent intent = new Intent(this, ProjectorActivity.class);
         this.startActivity(intent);
     }
 

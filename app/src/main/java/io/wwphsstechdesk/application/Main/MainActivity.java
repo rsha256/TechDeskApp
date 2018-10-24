@@ -1,10 +1,9 @@
-package com.example.anikaitsingh.myapplication;
+package io.wwphsstechdesk.application.Main;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 

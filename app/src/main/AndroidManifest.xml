@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.anikaitsingh.myapplication">
+    package="io.wwphsstechdesk.application.Main">
 
     <application
         android:allowBackup="true"
@@ -11,17 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name="io.wwphsstechdesk.application.Main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FAQActivity" />
-        <activity android:name=".ScrollableActivity" />
-        <activity android:name=".WifiActivity" />
-        <activity android:name=".LaptopChromebookActivity" />
+        <activity android:name="io.wwphsstechdesk.application.Main.FAQActivity" />
+        <activity android:name="io.wwphsstechdesk.application.Main.ScrollableActivity" />
+        <activity android:name="io.wwphsstechdesk.application.Main.WifiActivity" />
+        <activity android:name="io.wwphsstechdesk.application.Main.LaptopChromebookActivity" />
+        <activity android:name="io.wwphsstechdesk.application.Main.ProjectorActivity" />
     </application>
 
 </manifest>

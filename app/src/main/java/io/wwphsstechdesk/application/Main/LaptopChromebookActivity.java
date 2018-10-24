@@ -1,13 +1,13 @@
-package com.example.anikaitsingh.myapplication;
+package io.wwphsstechdesk.application.Main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ScrollableActivity extends AppCompatActivity {
+public class LaptopChromebookActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scrollable);
+        setContentView(R.layout.activity_laptop_chromebook);
     }
 }

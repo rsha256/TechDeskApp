@@ -1,13 +1,13 @@
-package com.example.anikaitsingh.myapplication;
+package io.wwphsstechdesk.application.Main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class WifiActivity extends AppCompatActivity {
+public class ProjectorActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wifi);
+        setContentView(R.layout.activity_projector);
     }
 }

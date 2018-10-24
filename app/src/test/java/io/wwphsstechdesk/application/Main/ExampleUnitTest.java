@@ -1,4 +1,4 @@
-package com.example.anikaitsingh.myapplication;
+package io.wwphsstechdesk.application.Main;
 
 import org.junit.Test;
 
