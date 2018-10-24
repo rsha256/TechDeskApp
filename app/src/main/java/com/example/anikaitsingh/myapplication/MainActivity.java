@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showToastAboutApp(View view){
         String message = "This app helps you with technology at WW-P South."
-                +" Made by Anikait Singh.";
+                +" Made by Anikait Singh and Rahul Shah.";
         Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
         toast.show();
     }

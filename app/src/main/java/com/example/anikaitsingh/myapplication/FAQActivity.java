@@ -23,5 +23,9 @@ public class FAQActivity extends AppCompatActivity {
         this.startActivity(intent);
     }
 
+    public void showWifiHelp(View view){
+        Intent intent = new Intent(this, WifiActivity.class);
+        this.startActivity(intent);
+    }
 
 }
