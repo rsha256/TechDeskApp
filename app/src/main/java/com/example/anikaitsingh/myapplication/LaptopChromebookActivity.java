@@ -3,11 +3,11 @@ package com.example.anikaitsingh.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class WifiActivity extends AppCompatActivity {
+public class LaptopChromebookActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wifi);
+        setContentView(R.layout.activity_laptop_chromebook);
     }
 }

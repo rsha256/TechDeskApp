@@ -28,4 +28,9 @@ public class FAQActivity extends AppCompatActivity {
         this.startActivity(intent);
     }
 
+    public void showLaptopChromebookHelp(View view){
+        Intent intent = new Intent(this, LaptopChromebookActivity.class);
+        this.startActivity(intent);
+    }
+
 }
