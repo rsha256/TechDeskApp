@@ -11,18 +11,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="io.wwphsstechdesk.application.Main.MainActivity">
+        <activity
+            android:name="io.wwphsstechdesk.application.Main.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="io.wwphsstechdesk.application.Main.FAQActivity" />
-        <activity android:name="io.wwphsstechdesk.application.Main.ScrollableActivity" />
-        <activity android:name="io.wwphsstechdesk.application.Main.WifiActivity" />
-        <activity android:name="io.wwphsstechdesk.application.Main.LaptopChromebookActivity" />
-        <activity android:name="io.wwphsstechdesk.application.Main.ProjectorActivity" />
+        <activity
+            android:name="io.wwphsstechdesk.application.Main.FAQActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.wwphsstechdesk.application.Main.ScrollableActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.wwphsstechdesk.application.Main.WifiActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.wwphsstechdesk.application.Main.LaptopChromebookActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="io.wwphsstechdesk.application.Main.ProjectorActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
