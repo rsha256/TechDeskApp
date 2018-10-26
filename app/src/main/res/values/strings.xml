@@ -7,9 +7,43 @@
     <string name="b3">About the App</string>
     <string name="f1">Wi-Fi</string>
     <string name="f2">Laptop/Chromebook</string>
-    <string name="f3">Projector/Audio Connection</string>
+    <string name="f3">Projector Connection</string>
     <string name="f4">Back to Main Menu</string>
     <string name="paragraph">
+        We are a group of students from West Windsor-Plainsboro High School South looking to enhance
+        the technological literacy of our community by lending a hand to whomever is in need of tech
+        help. The Tech Desk operates in the Media Center throughout the day, including lunch and
+        even after school while the library is open. Other than simply showing up to the library,
+        volunteers are proactive in helping peers, including other library volunteers. Occasionally,
+        the club partners with other clubs to build websites and holds workshops with new gadgets to
+        be tinkered with. With programming and the internet in general so prevalent today,
+        especially now that more students have access to technology through chromebooks in their
+        daily lives, the HSS Tech Desk aims to dispel any technological doubts anyone may have.
+        The HSS Tech Desk is actively involved in the school community, actively developing sites
+        for fellow student-run organizations or even the district itself. More projects to be added later!
+    </string>
+    <string name="wifi_help">
+        <b>Wifi Issues</b>
+
+        \n\n\n1. Make sure the wifi network is up - try connecting from your phone or asking a friend if the wifi is up for them!
+        \n\n2. Now that we know that the problem is on your end, make sure that airplane mode is turned off and that wifi is turned on.
+        \n\n3. If you still can\'t connect, try restarting your phone and repeating steps 1 and 2.
+        \n\n4. Try contacting your local Tech Team Member at the High School South Technology Help Desk (in the library) and ask for a certificate for the wifi.
+        Alternatively, try installing a vpn such as x-vpn before coming to school.
+        \n\n5. Your phone may be broken - try connecting to your home network; if you cannot connect to that, then you may be in need of a new phone.
+    </string>
+    <string name="laptop_chromebook_help">
+        <b>Laptop Issues</b>
+        \n\n\n1. Make sure that all of the wires are plugged in as they should be
+        \n\n2. Try restarting or try having a friend login.
+        \n\n3. If all else fails, bring it to the Tech Desk at South.\n\n\n\n
+
+        <b>Chromebook Issues</b>
+        \n\n\n1. Try having a friend login to your computer to see if the problem exists for them as well.
+        \n\n2. Try restarting by pressing the combination of esc+refresh and the power key for 30 seconds and then see if the problem still pertains.
+        \n\n3. If all else fails, bring it to the TechDesk at South.
+    </string>
+    <string name="projector_help">
         We are a group of students from West Windsor-Plainsboro High School South looking to enhance
         the technological literacy of our community by lending a hand to whomever is in need of tech
         help. The Tech Desk operates in the Media Center throughout the day, including lunch and
