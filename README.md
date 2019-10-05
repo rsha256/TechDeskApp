@@ -1,2 +1,2 @@
 # TechDeskApp
-Application built for Tech Desk Club at WWP South
+Application built for Tech Desk Club at WWP South.
